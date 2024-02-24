@@ -1,0 +1,129 @@
+.App {
+  background-color: #dadbd3;
+  /* margin-top: -4%; */
+  /* height: 100vh; */
+
+}
+.app-body {
+  margin-top: -50px;
+  background-color: #ededed;
+  box-shadow: -1px 4px 20px -6px rgb(0, 0, 0, 0.75);
+  /* height: 100vh; */
+
+}
+.sidebar {
+  flex: 0.35;
+  border: 2px solid black;
+}
+.mainChat {
+  flex: 0.65;
+  border: 2px solid red;
+}
+.mainChat_header_right {
+  float: right;
+}
+.sidebar_header_right {
+  float: right;
+}
+.sidebar_header_left {
+  float: left;
+}
+.mainChat_header_left {
+  display: flex;
+  float: left;
+}
+.sidebar_input {
+  background-color: #dadbd3;
+}
+.sidebar_input > input {
+  outline-width: 0;
+}
+.sidebar_btn {
+  border: 2px solid black;
+  color: white;
+  background-color: rgb(30, 30, 210);
+  padding: 0.5rem;
+}
+.sidebar_btn_div {
+  display: flex;
+  justify-content: center;
+}
+.sidebar_chat{
+  display: flex;
+  cursor: pointer;
+  border-bottom: 2px solid #f6f6f6;
+}
+.sidebar_chat_info{
+margin-left: 15px;
+}
+.sidebar_chat_info > h2{
+   font-size: 16px;
+   margin-bottom: 8px;
+}
+.sidebar_chat_info > p{
+  font-size: 10px;
+
+}
+.chat_body{
+flex: 1;
+  background-color: rgb(196, 196, 118);
+  overflow: scroll;
+}
+
+#chat_heading{
+  display: flex;
+  justify-content: center;
+  font-size: x-large;
+  font-weight: bolder;
+}
+.chat_message{
+  position: relative;
+  font-size: 16px;
+  width: fit-content;
+  border-radius: 10px;
+  background-color: #ffffff;
+  margin-bottom: 30px;
+  padding: 0.5rem;
+}
+.chat_timeStamp{
+  margin-left: 10px;
+  font-size: xx-small;
+}
+.chat_name{
+  position: absolute;
+  top: -15px;
+  font-weight: 800;
+  font-size: xx-small;
+}
+.chat_reciever{
+  margin-left: auto;
+  background-color: #dcf8c6;
+}
+.chat_footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 62px;
+  border: 1px solid lightgray;
+}
+.chat_footer > form{
+  flex: 1;
+  display: flex;
+}
+.chat_footer > form > input{
+  flex: 1;
+border-radius: 30px;
+padding: 10px;
+border: none;
+
+}
+
+.chat_footer > form > button{
+display: none;
+/* border: 1px solid black; */
+}
+
+.chat_footer > .MuiSvgIcon-root{
+padding: 10px;
+color: gray;
+}
